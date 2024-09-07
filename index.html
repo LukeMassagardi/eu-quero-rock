@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--qual a linguagem que a página será-->
+<html lang="pt-br">
+<!-- faz a parte principal da página(o que vai escrito na aba, serve pra qualquer projeto)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+ <title>EuQueroÉRock</title>
+</head>
+<!--corpo da página-->
+<body>
+    <!--cabeçalio-->
+    <header>
+        <h1>Eu Quero é Rock</h1>
+    </header>
+    <main>
+        <!--seções de uma forma geral-->
+        <section>
+            <input type="text" placeholder="Qual Gênero?" id="campo-pesquisa"> 
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <!--classe serve pra divisão e estilizar no css-->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            </section>
+    </main>
+    <!--roda pe-->
+    <footer>
+        2024
+        <p>Todos os direitos reservados</p>
+        <p> Email para contato: rocksuorecerveja@gmail.com</p>
+    </footer>
+    <!--inserir o comando do java no final para otimizar a abertura da página-->
+    <script src="dados.js"></script> <script src="app.js"></script> </body>
+</html>
